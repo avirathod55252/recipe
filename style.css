@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    overflow-x: none;
+    background-color: #dbdee1;
+    background-image: linear-gradient(160deg, #dbdee1 0%, #edf7f6 100%);
+
+
+}
+
+.navcontainer {
+    width: 100vw;
+    /* background-color: rgb(90, 90, 155); */
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+
+    min-height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    width: 100%;
+    padding-right: 2rem;
+}
+
+#navlist {
+    padding: 35px;
+    width: 100%;
+    /* margin-left: 15px;
+    margin-right: 15px; */
+    list-style: none;
+    font-size: 2.8rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+#navlogo {
+    font-size: 2.8rem;
+    color: azure;
+}
+
+a {
+    text-decoration: none;
+    color: azure;
+}
+
+#navitems {
+    display: flex;
+    gap: 30px;
+    /* color: azure; */
+}
+
+.footerbox {
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+
+    width: 100%;
+    text-align: center;
+    min-height: 40px;
+}
+
+.footerbox p {
+    color: azure;
+    font-size: 2rem;
+}
+
+.contentbox {
+    width: 50%;
+    margin: auto;
+    /* border:2px solid black; */
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    padding: 3rem;
+    box-shadow: 0px 0px 30px black;
+}
+
+.item {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 30px;
+
+}
+
+.rightbox img {
+    height: 200px;
+    border-radius: 20px;
+    transition: all 0.6s linear 0s;
+    size: 2rem;
+}
+
+.rightbox img:hover {
+    transform: scale(1.2);
+}
+
+.rightbox2 img {
+    height: 240px;
+    border-radius: 70px;
+    transition: all 0.6s linear 0s;
+
+}
+
+.rightbox2 img:hover {
+    transform: scale(1.2);
+}
+
+.leftbox {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.leftbox h2 {
+    font-size: 2rem;
+}
+
+.ingbox {
+    font-size: 1.4rem;
+}
+
+.recbox {
+    font-size: 1.4rem;
+}
